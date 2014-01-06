@@ -13,8 +13,8 @@ The end goal is to create a helper in the form:
 `{@formatDate date="<date_object>" format="<format_string>"}`
 
 Where:
-* **<date_object>** is the Date to render
-* **<format_string>** is an optional text string that follows the [momentJS conventions](http://momentjs.com/docs/#/displaying/format/)
+* **&lt;date_object&gt;** is the Date to render
+* **&lt;format_string&gt;** is an optional text string that follows the [momentJS conventions](http://momentjs.com/docs/#/displaying/format/)
 
 Example format_strings:
 ```
