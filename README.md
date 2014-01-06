@@ -22,11 +22,14 @@ Example format_strings:
 "ddd, hA"                       => "Sun, 3PM"
 ```
 
+This repository was created specifically to hold the example. If you look at the [commit list](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commits/master), you will see
+how the shopping cart was built, step by step.
+
 ## Starting point
-This application picks up at the end of the [KrakenJS Localization Example](https://github.com/lensam69/Kraken_Example_Date_Format_Helper ).
+This application picks up at the end of the [KrakenJS Localization Example](https://github.com/lensam69/Kraken_Example_Localization).
 You should follow that tutorial first to make sure that your application can handle different locales.
 
-[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper /commit/ae8a4daf489bc6e9959b503ed5aba339165223b6)
+[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commit/ae8a4daf489bc6e9959b503ed5aba339165223b6)
 
 ## Dependencies
 The first step is installing the excellent [Moment.js](http://momentjs.com/) library. This library implements date
@@ -34,7 +37,7 @@ formatting and internationalization, so instead of reinventing the wheel, we'll 
 
 `npm install --save moment`
 
-[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper /commit/81dd0c71a4dd384682337a74e731fd03d1a8dfda)
+[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commit/81dd0c71a4dd384682337a74e731fd03d1a8dfda)
 
 ## Creating the helper as a library
 
@@ -63,7 +66,7 @@ Here's the relevant part of the helper code. It has been written following [dust
     };
 ```
 
-[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper /commit/9fc7da0f40e2e1a56895895e5102f7372e12c8b2)
+[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commit/9fc7da0f40e2e1a56895895e5102f7372e12c8b2)
 
 ## The helper library in action
 
@@ -86,7 +89,7 @@ Finally, we'll add our helper tag in the template to be rendered. In `./public/t
 ```
 We'll show both the raw and the formatted date for comparison.
 
-[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper /commit/875f0c15b44dd49c2ce048789c009f2c9cbbf2a9)
+[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commit/875f0c15b44dd49c2ce048789c009f2c9cbbf2a9)
 
 Go ahead and give the application a spin and visit http://localhost:8000
 ```bash
@@ -130,7 +133,7 @@ And that's it.
 
 Reload the page a few times, and as the locality changes randomly, the date will be formatted accordingly.
 
-[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper /commit/7efe6fef826abd496b865971805ee123965301b3)
+[<img src='http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/External.svg/600px-External.svg.png' width='12px' height='12px'/>View commit](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commit/7efe6fef826abd496b865971805ee123965301b3)
 
 
 ## And you're done!
