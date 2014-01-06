@@ -16,6 +16,7 @@ module.exports = function (app) {
             locality: languages[ parseInt(Math.random() * languages.length, 10) ]
         };
 
+        model.theDate = new Date();
         res.render('index', model);
 
     });
