@@ -139,6 +139,6 @@ If you find any typos, errors, bugs or you have suggestions for improvement, ple
 
 ## Notes
 
-<img src='http://imgs.xkcd.com/comics/iso_8601.png'/>
+[<img src='http://imgs.xkcd.com/comics/iso_8601.png'/>](http://xkcd.com/1179/)
 
 
