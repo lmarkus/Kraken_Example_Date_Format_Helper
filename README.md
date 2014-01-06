@@ -23,7 +23,7 @@ Example format_strings:
 ```
 
 This repository was created specifically to hold the example. If you look at the [commit list](https://github.com/lmarkus/Kraken_Example_Date_Format_Helper/commits/master), you will see
-how the shopping cart was built, step by step.
+how the application was built, step by step.
 
 ## Starting point
 This application picks up at the end of the [KrakenJS Localization Example](https://github.com/lensam69/Kraken_Example_Localization).
